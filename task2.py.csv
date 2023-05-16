@@ -1,0 +1,22 @@
+[Task 2 | Tweet Labeling] Please label the following 10 tweets,,,,,,,
+,,,,,,,
+Instructions:,,,,,,,
+"1. Determine if a tweet contains misinformation. If yes, please add a short explanation in the note column.",,,,,,,
+2. Determine if a tweet is news or opinion.,,,,,,,
+"3. If a tweet is news, determine if it's breaking news or normal news. If a tweet is opinion, determine if it's pro-life or pro-choice.",,,,,,,
+Note: a big part of the task is for you to come up with your own definition for misinformation and opinions vs news using common sense and domain expertise. Bonus point if you can relate your approach to established frameworks in economics and political science. Be sure to cite appropriately.,,,,,,,
+,,,,,,,
+Output: a document detailing the procedures you used in labeling tweets + labeled dataset in a csv file,,,,,,,
+Time: 10 mins to 1 hour depending on familiarity,,,,,,,
+,,,,,,,
+TweetID,is_misinfo,category,Breaking News,Normal News,Pro-life,Pro-Choice,Note
+1540348242960846849,no,opinion,,,no,yes,"Although a potentially controversial opinion, it is not misinformation as Justice Clarence Thomas did make this statement. It is not breaking news as it is reactionary tweet to the actual breaking news of Roe v Wade being overturned"
+1540345715616006148,no,opinion,,,no,yes,"Although a strong opinion piece with a clear bias for pro-choice, there is no blatant misinformation in Michelle Obama's tweet"
+1540341761658085376,no,news,yes,no,,,This is breaking news compared to the previous two tweets since the previous two tweets are reactionary opinions to the breaking news of Roe v Wade being overturned. It is not misinformation as this did occur
+1540338100521603074,no,news,no,yes,,,"no misinformation here, there are pro-life protestors reacting to the Roe V Wade overturnment. While it is recent news, it is not necessarily breaking as it doesn't change anything, it is simply the reaction to breaking news."
+1521296227291312133,yes,news,yes,no,,,"this is misinformation as other sources claim that these barricades were up in response to the self-immolation of an environmental activist on Earth day whereas this source says it is due to the SCOTUS leak. While the leak may be true, it is also just a leak and could not be confirmed beforehand and could be classified as potential misinformation during the time since it is not confirmed by an official source."
+1540343622486327296,no,news,yes,no,,,this is not misinformation because it can be cross-reference from multiple sources and is from a reputable source which is the governor of texas.
+1521328439759761408,no,opinion,,,no,yes,"while this is not misinformation and can be also considered news, I classify it as more of an opinion tweet since the mexican incident occured roughly a year before roe v wade so it is not recent news, however it is a controversial tweet to indiciate what should be done for the posters pro-choice views. Also, while it is true the mexican government decriminalized abortions, they are still difficult to get safely in mexico which makes this tweet not misinformation, but misleading in a sense."
+1540337296473526272,no,news,yes,no,,,this is not misinformation because it can be cross-reference from multiple sources and is from a reputable news source
+1540405941094326272,yes,opinion,,,no,yes,"there are quite a few misleading statements and misinformation in this post. Firstly, stating that 80% of americans want abortion to remain legal is blatant misinformation just from a statistics point of view since maybe a sample taken had a result of 80%, but saying the sample represents the population without providing further detail on the deviation and sample size is simply misinformation. All the other statements are exaggerated generalizations of what could potentially happen, but none of them are factual or objective so they can be labelled as misinformation. "
+1522330619618996225,yes,opinion,,,no,yes,"this is blatant misinformation, the quote provided in the tweet does not even match the dialogue from the attached video. Furthermore, although the lady in the video speaking is an official government worker, picking words she uses and twisting them into a self-created meaning is misinformation and not accurate at all."
